@@ -57,20 +57,35 @@ section {
     line-height: 2em;
 }
 
+section > p {
+    padding-bottom: 80px;
+}
+
 .normal {
     background-color: white;
     color: black;
 }
 
 .imagem {
-    background-color: rgb(87, 87, 87);
     color: white;
+    background-position: right; center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 5px 5px 10px 1px rgba(0, 0, 0, 0.719);
 }
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.24);
     width: fit-content;
     padding: 10px;
+}
+
+#img1 {
+    background-image: url(../imagens/background001.jpg);
+}
+
+#img2 {
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
